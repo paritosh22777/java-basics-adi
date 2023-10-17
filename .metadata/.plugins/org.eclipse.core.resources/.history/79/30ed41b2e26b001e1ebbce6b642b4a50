@@ -1,0 +1,21 @@
+package com.training.adi;
+
+public class PermanentEmployee extends Employee{
+
+	private double pfPercentage = 12;
+	private double pfAmount = 0;
+
+	public PermanentEmployee(int empId, String empName, String deptName, double salary) {
+		super(empId, empName, deptName, salary);
+	}
+	
+	public double getPfPercentage() {
+		return pfPercentage;
+	}
+	
+	public double getPfAmount() {
+		pfAmount = 0.12 * getSalary();
+		return pfAmount;
+	}
+	
+}

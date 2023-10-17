@@ -1,0 +1,10 @@
+package com.training.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionClass {
+	public static void main(String[] args) {
+		List myList = new ArrayList();
+	}
+}

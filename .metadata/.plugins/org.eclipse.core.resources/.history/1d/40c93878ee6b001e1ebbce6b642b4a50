@@ -1,0 +1,12 @@
+package com.training.adi.practice;
+
+public class CheckingAccount implements Account{
+
+	@Override
+	public double getInterestRate(double principal, double rate, int time) {
+		// TODO Auto-generated method stub
+		double interest = principal * 0.03 * time;
+		return interest;
+	}
+
+}

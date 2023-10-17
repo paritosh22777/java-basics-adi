@@ -1,0 +1,9 @@
+//package com.training.adi;
+//delete -> package com.training.adi -> to work using cmd
+
+public class MyClass {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		System.out.println("Hi " + args[0] + " " + args[1]);
+	}
+}

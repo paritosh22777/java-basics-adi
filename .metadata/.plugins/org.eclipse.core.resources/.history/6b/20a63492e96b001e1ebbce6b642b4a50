@@ -1,0 +1,12 @@
+package com.training.adi;
+
+//extending abstract class makes derived class abstract
+public class SBI extends Bank{
+
+	@Override
+	public double getInterestRate() {
+		// TODO Auto-generated method stub
+		return 6.5;
+	}
+
+}

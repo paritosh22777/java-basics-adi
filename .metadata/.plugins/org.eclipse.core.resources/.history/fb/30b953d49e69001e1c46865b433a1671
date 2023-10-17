@@ -1,0 +1,20 @@
+package com.training.adi;
+
+public class Employee {
+	private String empName; // camelCased
+	private int empId;
+	private String deptName;
+	private double salary; // instance variables
+	
+	
+	public String getEmpName() {
+		return this.empName;
+	}
+	
+	public void setEmpName(String Name)	{
+		this.empName = empName;
+	}	
+}
+
+// Primitive data types(fixed memory size): byte, short, int, float, double, long, char, boolean
+// Non-primitive data types: String, Array, Class
