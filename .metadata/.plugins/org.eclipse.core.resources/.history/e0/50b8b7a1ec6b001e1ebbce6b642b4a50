@@ -1,5 +1,0 @@
-package com.training.adi.practice;
-
-public interface Account {
-	public double getInterestRate(double amount, double rate, int time);
-}

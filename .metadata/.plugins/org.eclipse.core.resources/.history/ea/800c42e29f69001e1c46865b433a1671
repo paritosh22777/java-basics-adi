@@ -1,9 +1,0 @@
-package com.training.adi;
-//delete -> package com.training.adi -> to work using cmd
-
-public class MyClass {
-	public static void main(String[] args) {
-		Employee emp1 = new Employee();
-		
-	}
-}
